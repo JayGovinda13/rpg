@@ -26,9 +26,16 @@ body {
 #controls,
 #stats,
 #monsterStats {
-    border: 2px solid #0f151b;
+    /* border: 1px solid #0f151b; */
     padding: 10px;
     margin-top: 10px;
+}
+
+#controls,
+#stats {
+    color: #f9f4e4;
+    background-color: #34495e;
+    /* border-radius: 10px; */
 }
 
 #monsterStats {
