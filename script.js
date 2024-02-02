@@ -48,9 +48,9 @@ const locations = [
   },
   {
     name: "store",
-    "button text": ["Curandeiro (10 ouro)", "Comprar armamento (30 ouro)", "Rumo ao centro da vila"],
+    "button text": ["Curandeiro (10 ouro)", "Comprar arma (30 ouro)", "Rumo à vila"],
     "button functions": [buyHealth, buyWeapon, goTown],
-    text: "Entre na loja"
+    text: "Você adentra a sombria loja, onde segredos se escondem nas sombras, esperando serem revelados pela luz trêmula das velas. O aroma de couro gasto e antiguidades enche o ar, enquanto a atmosfera densa sugere que cada item à venda tem sua própria história sombria."
   },
   {
     name: "cave",
