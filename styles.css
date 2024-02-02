@@ -26,7 +26,7 @@ footer {
 
 #game {
     width: 80%;
-    max-width: 500px; /* Ajuste o máximo conforme necessário */
+    max-width: 500px;
     margin: 10% auto 0;
     padding: 20px;
     border-radius: 10px;
@@ -36,7 +36,6 @@ footer {
 #controls,
 #stats,
 #monsterStats {
-    /* border: 1px solid #0f151b; */
     padding: 10px;
     margin-top: 10px;
 }
@@ -45,7 +44,6 @@ footer {
 #stats {
     color: #f9f4e4;
     background-color: #34495e;
-    /* border-radius: 10px; */
 }
 
 #monsterStats {
@@ -74,6 +72,7 @@ button:hover {
 /* Consulta de Mídia para Telas Pequenas (Celulares) */
 @media only screen and (max-width: 600px) {
     #game {
-        width: 90%; /* Reduzir a largura para telas pequenas */
+        width: 90%;
+        margin: 10% auto 0;
     }
 }
