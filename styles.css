@@ -15,31 +15,25 @@ body {
 }
 
 #game {
-    max-width: 80%;
-    max-height: 400px;
-    background-color: #f9f4e4; /* Marfim para o fundo do jogo */
-    color: #2c3e50;
+    width: 80%;
+    max-width: 500px; /* Ajuste o máximo conforme necessário */
     margin: 10% auto 0;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1.0);
 }
 
 #controls,
-#stats {
-    border: 1px solid #34495e;
+#stats,
+#monsterStats {
+    border: 2px solid #0f151b;
     padding: 10px;
-    color: #34495e;
     margin-top: 10px;
 }
 
 #monsterStats {
-    display: none;
-    border: 1px solid #c0392b;
-    padding: 10px;
-    color: #f9f4e4; /* Marfim para o texto do monsterStats */
     background-color: #c0392b;
-    margin-top: 10px;
+    color: #f9f4e4;
 }
 
 .stat {
@@ -58,4 +52,11 @@ button {
 
 button:hover {
     background-color: #d35400;
+}
+
+/* Consulta de Mídia para Telas Pequenas (Celulares) */
+@media only screen and (max-width: 600px) {
+    #game {
+        width: 90%; /* Reduzir a largura para telas pequenas */
+    }
 }
