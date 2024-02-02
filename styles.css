@@ -76,3 +76,10 @@ button:hover {
         margin: 10% auto 0;
     }
 }
+
+@media only screen and (max-device-width: 375px) {
+    #game {
+        width: 90%; /* ou outro tamanho desejado */
+        margin: 10% auto 0; /* ou ajuste conforme necessário */
+      }
+  }
