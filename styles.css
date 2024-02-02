@@ -8,6 +8,16 @@ body {
     font-family: 'Arial', sans-serif;
 }
 
+footer {
+    background-color: #34495e;
+    color: #f9f4e4;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
 #text {
     background-color: #34495e;
     color: #ecf0f1;
